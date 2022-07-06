@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-import static org.fonke.stockservice.Contoller.util.Constants.APP_ROOT;
+import static org.fonke.stockservice.util.Constants.APP_ROOT;
 
 @Api(APP_ROOT + "/articles")
 public interface ArticleApi {

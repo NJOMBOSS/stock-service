@@ -9,11 +9,10 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-import static org.fonke.stockservice.Contoller.util.Constants.APP_ROOT;
+import static org.fonke.stockservice.util.Constants.APP_ROOT;
 
-
-@Configuration
 @EnableSwagger2
+@Configuration
 public class SwaggerConfiguration {
 
     @Bean
